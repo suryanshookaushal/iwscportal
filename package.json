@@ -1,14 +1,7 @@
 {
-  "name": "portal",
+  "name": "intern-portal-backend-complete",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "app.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
@@ -28,5 +21,18 @@
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1",
     "path": "^0.12.7"
-  }
+  },
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
+
